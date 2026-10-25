@@ -1,0 +1,72 @@
+[
+  {
+    "id": "en_01",
+    "language": "en",
+    "category": "conversational",
+    "audio_path": "D:\\Speechtotext\\data\\samples\\en_01.wav",
+    "reference": "Artificial intelligence and speech recognition are transforming modern communication across the globe."
+  },
+  {
+    "id": "en_02",
+    "language": "en",
+    "category": "technical",
+    "audio_path": "D:\\Speechtotext\\data\\samples\\en_02.wav",
+    "reference": "Whisper is an automatic speech recognition model trained on thousands of hours of multilingual audio."
+  },
+  {
+    "id": "en_03",
+    "language": "en",
+    "category": "weather",
+    "audio_path": "D:\\Speechtotext\\data\\samples\\en_03.wav",
+    "reference": "The weather forecast predicts heavy rain and thunderstorms in northern regions tomorrow."
+  },
+  {
+    "id": "en_04",
+    "language": "en",
+    "category": "numerical",
+    "audio_path": "D:\\Speechtotext\\data\\samples\\en_04.wav",
+    "reference": "She ordered three cups of coffee and two chocolate donuts at nine thirty in the morning."
+  },
+  {
+    "id": "en_05",
+    "language": "en",
+    "category": "metrics",
+    "audio_path": "D:\\Speechtotext\\data\\samples\\en_05.wav",
+    "reference": "Word error rate evaluates the accuracy of speech recognition by comparing predicted words with ground truth."
+  },
+  {
+    "id": "hi_01",
+    "language": "hi",
+    "category": "conversational",
+    "audio_path": "D:\\Speechtotext\\data\\samples\\hi_01.wav",
+    "reference": "भारत एक बहुभाषी देश है जहाँ कई भाषाएं और संस्कृतियां एक साथ फलती फूलती हैं।"
+  },
+  {
+    "id": "hi_02",
+    "language": "hi",
+    "category": "technical",
+    "audio_path": "D:\\Speechtotext\\data\\samples\\hi_02.wav",
+    "reference": "आर्टिफिशियल इंटेलिजेंस और मशीन लर्निंग आज तकनीकी प्रगति के प्रमुख आधार बन चुके हैं।"
+  },
+  {
+    "id": "hi_03",
+    "language": "hi",
+    "category": "weather",
+    "audio_path": "D:\\Speechtotext\\data\\samples\\hi_03.wav",
+    "reference": "आज का मौसम बहुत सुहावना है और शाम को हल्की बारिश होने की संभावना है।"
+  },
+  {
+    "id": "hi_04",
+    "language": "hi",
+    "category": "numerical",
+    "audio_path": "D:\\Speechtotext\\data\\samples\\hi_04.wav",
+    "reference": "रोहन ने बाज़ार से पाँच किलो सेब और दो लीटर दूध खरीदा।"
+  },
+  {
+    "id": "hi_05",
+    "language": "hi",
+    "category": "domain",
+    "audio_path": "D:\\Speechtotext\\data\\samples\\hi_05.wav",
+    "reference": "भाषण से पाठ अनुवाद प्रणाली विभिन्न भाषाओं के बीच संचार को आसान बनाती है।"
+  }
+]

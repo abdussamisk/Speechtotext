@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multilingual-speech-to-text"
+version = "1.0.0"
+description = "Multilingual Speech-to-Text System using OpenAI Whisper with English and Hindi WER evaluation"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Developer" }
+]
+dependencies = [
+    "torch>=2.0.0",
+    "openai-whisper>=20231117",
+    "soundfile>=0.12.0",
+    "scipy>=1.10.0",
+    "imageio-ffmpeg>=0.4.9",
+    "gTTS>=2.5.0",
+    "jiwer>=3.0.0",
+    "tabulate>=0.9.0",
+    "streamlit>=1.30.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0"
+]
+
+[project.scripts]
+speechtotext = "cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
